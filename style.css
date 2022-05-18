@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Josefin Sans;
+    box-sizing: border-box;
+}
+.picLogo{
+    padding-top: 80px;
+    padding-left: 8%;
+    padding-right: 8%;;
+   
+}
+.picRight{
+    float: right;
+    margin: 0 ;
+    display: flex;
+    background-size: cover;
+    min-height: 100vh;
+    background-position: 40%;
+}
+body{
+    background-image: url(./images/bg-pattern-desktop.svg);
+    background-size: cover;
+    margin: 0;
+}
+.info{
+    position: absolute;
+    top: 30%;
+    left: 8%;
+    transform: translate(8%);
+}
+h3{
+    font-size: 100%;
+   
+    line-height: 150%;
+    color: darksalmon;
+    padding: 1%;
+    
+}
+h1{
+    font-size: 300%;
+    letter-spacing: 15px;
+    padding: 2%;
+}
+form{
+    padding: 2%;
+    
+    
+}
+span{
+    color: burlywood;
+   
+}
+.sent form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 15px 15px;
+    border: 1.5px solid rgb(150, 114, 114);
+    outline: none;
+    border-radius: 30px;
+}
+.sent form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    padding: 16px 35px;
+    border: none;
+    border-radius: 30px;
+    background-color: palevioletred;
+    right: 13px;
+    
+
+}
+.small{
+    display: none;
+}
+.btn:hover{
+    background-image: linear-gradient(135deg, rgb(250, 7, 7), hsl(0, 100%, 49%));
+}
+.sent form input:first-child:hover{
+    border: 3px solid rgb(248, 4, 228);
+}

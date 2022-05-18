@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>website portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="script.js">
+    </head>
+    <body>
+        <div class="hero">
+            
+            <img src="./images/logo.svg" alt="" class="picLogo">
+            <img src="./images/hero-desktop.jpg" alt="" class="picRight" width="1000"  height="900">
+            
+        </div>
+        <div class="info">
+            <h1><span>WE'RE</span> <br/>COMING<br/>SOON </h1>
+            <h3>Hellow fellow shoppers! We're current building our new<br/>
+                fashion store. Add your email below to stay up up-to-date with<br/>
+                announcements and our launch deals<h3>
+                    <div class="sent">
+                    <form id="form">
+                        <input type="email" name="email" id="email" placeholder="Email Address" required class="emm">
+                        <input type="submit" name="button" value=" > " class="btn">
+                    </form>
+                    <form class="error">
+                        <small></small>
+                    </form>
+                </div>
+        </div>
+
+        
+    </body>
+    <script>
+    var form = document.getElementById('form');
+
+
+form.addEventListener('submit',function(event)
+{
+    event.preventDefault()
+
+    var email = document.getElementById('email').value 
+    
+    console.log(email);
+
+    
+})
+</script>
+  
+   
+</html>
